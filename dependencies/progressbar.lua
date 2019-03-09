@@ -1,0 +1,7 @@
+write("  ")
+term.setBackgroundColor(colors.gray)
+write("                                               ")
+term.setCursorPos(3,2)
+term.setBackgroundColor(colors.blue)
+textutils.slowPrint("                                               ")
+term.setBackgroundColor(colors.black)
