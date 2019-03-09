@@ -3,7 +3,7 @@ function download(url, file)
   if fdl == nil then
     print("Could not connect to "..url..". Exiting...")
     sleep(1)
-    os.shutdown
+    os.shutdown()
   else
     f = fs.open(file, "w")
     f.write(fdl.readAll())
