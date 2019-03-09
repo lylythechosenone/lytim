@@ -1,7 +1,8 @@
 function download(url, file)
   fdl = http.get(url)
   if fdl == nil then
-    error("could not connect")
+    print("Could not connect to "..url..". Exiting...")
+    sleep(1)
     return false
   else
     f = fs.open(file, "w")
