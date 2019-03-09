@@ -3,14 +3,13 @@ function download(url, file)
   if fdl == nil then
     print("Could not connect to "..url..". Exiting...")
     sleep(1)
-    return false
+    os.shutdown
   else
     f = fs.open(file, "w")
     f.write(fdl.readAll())
     f.close()
     print("updated "..file)
   end
-  return true
 end
 term.setBackgroundColor(colors.blue)
 term.clear()
