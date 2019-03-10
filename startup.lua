@@ -10,9 +10,10 @@ if pass == nil then
   print("                             ")
   term.setCursorPos(1, 2)
   local input = read("*")
-  local pass = input
+  pass = input
   print("Press any key to continue...")
   os.pullEvent("key")
+  shell.run("startup")
 else
   while true do
     print("Enter password")
