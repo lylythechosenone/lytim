@@ -18,6 +18,7 @@ download("https://raw.githubusercontent.com/l-7777777/lytim/master/startup.lua",
 download("https://www.pastebin.com/raw/vyAZc6tj", "editor")
 download("https://raw.githubusercontent.com/l-7777777/lytim/master/install.lua", "install")
 download("https://raw.githubusercontent.com/l-7777777/lytim/master/dualBoot.lua", "dualBoot")
+download("https://raw.githubusercontent.com/l-7777777/lytim/master/newtab.lua", "newTab")
 sleep(1)
 term.clear()
 term.setCursorPos(1,1)
