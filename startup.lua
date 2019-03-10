@@ -8,7 +8,8 @@ if pass == nil then
   print("Choose a password.")
   term.setBackgroundColor(colors.gray)
   print("                             ")
-  local input = read("●")
+  term.setCursorPos(1, 2)
+  local input = read("*")
   local pass = input
   print("Press any key to continue...")
   os.pullEvent("key")
@@ -17,7 +18,8 @@ else
     print("Enter password")
     term.setBackgroundColor(colors.gray)
     print("                             ")
-    local input = read("●")
+    term.setCursorPos(1, 2)
+    local input = read("*")
     if input == pass then
       shell.run("main")
     else
