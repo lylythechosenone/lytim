@@ -13,4 +13,4 @@ or<br>
 `download <url> as <filename>`<br>
 <br>
 ## other lytim oses
-lytim has other functions as well. For example, there is DoorOS (`pastebin run 12345678`) and Lbios <br>(`pastebin run 12345678`).
+lytim has other functions as well. For example, there is DoorOS (`pastebin run 04USrzXV`) and Lbios <br>(`pastebin run 12345678`).
