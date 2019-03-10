@@ -11,7 +11,7 @@ if os.readAll() ~= lo.readAll() then
     print("  Restart  ")
     print("           ")
     local event, button, x, y = os.pullEvent("mouse_click")
-    if (y < 7) and (x < 11) and (y > 4) then
+    if (event ~= nil) and (y < 7) and (x < 11) and (y > 4) then
       os.reboot()
     end
   end
