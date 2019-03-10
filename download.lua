@@ -30,7 +30,7 @@ else
     local f = fs.open(tArgs[3], "w")
     f.write(file.readAll)
     f.close()
-    f = fs.open(filename, "r")
+    f = fs.open(tArgs[3], "r")
     print("showing the file...")
     print(f.readAll())
     while true do
