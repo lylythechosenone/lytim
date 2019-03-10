@@ -18,6 +18,7 @@ download("https://raw.githubusercontent.com/l-7777777/lytim/master/startup.lua",
 download("https://www.pastebin.com/raw/vyAZc6tj", "editor")
 download("https://raw.githubusercontent.com/l-7777777/lytim/master/update.lua", "update")
 download("https://raw.githubusercontent.com/l-7777777/lytim/master/install.lua", "install")
+download("https://raw.githubusercontent.com/l-7777777/lytim/master/installos.lua", "installos")
 download("https://raw.githubusercontent.com/l-7777777/lytim/master/download.lua", "download")
 download("https://raw.githubusercontent.com/l-7777777/lytim/master/newTab.lua", "newTab")
 download("https://raw.githubusercontent.com/l-7777777/lytim/master/dualBoot.lua", "dualBoot")
