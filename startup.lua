@@ -10,6 +10,7 @@ if pass == nil then
   print("                             ")
   term.setCursorPos(1, 2)
   local input = read("*")
+  term.setBackgroundColor(colors.black)
   pass = input
   print("Press any key to continue...")
   os.pullEvent("key")
@@ -21,6 +22,7 @@ else
     print("                             ")
     term.setCursorPos(1, 2)
     local input = read("*")
+    term.setBackgroundColor(colors.black)
     if input == pass then
       shell.run("main")
     else
