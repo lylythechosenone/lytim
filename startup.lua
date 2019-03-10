@@ -31,7 +31,7 @@ sleep(1)
 term.clear()
 term.setCursorPos(1,1)
 if dualBoot == nil then
-  local dualBoot = false
+  dualBoot = false
 elseif dualBoot == true then
   dofile("dualBoot")
 else
