@@ -1,0 +1,8 @@
+term.clear()
+term.setCursorPos(1,1)
+print("oses")
+print("")
+term.setBackgroundColor(colors.green)
+print("         ")
+print("  Axiom  ")
+print("         ")
