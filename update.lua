@@ -13,3 +13,9 @@
       local event, button, x, y = os.pullEvent("mouse_click")
       if (y < 7) and (x < 11) and (y > 4) then
         os.reboot()
+      end
+    end
+  else
+    print("There is no available update. If you belive this to be false, type pastebin run 3AVHyxWh to reinstall.")
+  end
+end
