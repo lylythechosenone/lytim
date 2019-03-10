@@ -11,5 +11,6 @@ local event, button, x, y = os.pullEvent("mouse_click")
 if (y > 2) and (y < 6) then
   if x < 9 then
     dofile("axiominstaller")
+    altos = "axiom"
   end
 end
