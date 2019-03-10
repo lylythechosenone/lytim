@@ -23,6 +23,7 @@ download("https://raw.githubusercontent.com/l-7777777/lytim/master/oses/axiomins
 download("https://raw.githubusercontent.com/l-7777777/lytim/master/download.lua", "download")
 download("https://raw.githubusercontent.com/l-7777777/lytim/master/newTab.lua", "newTab")
 download("https://raw.githubusercontent.com/l-7777777/lytim/master/dualBoot.lua", "dualBoot")
+download("https://raw.githubusercontent.com/l-7777777/lytim/master/dependencies/button.lua", "button")
 sleep(1)
 term.clear()
 term.setCursorPos(1,1)
