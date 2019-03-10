@@ -3,7 +3,7 @@ term.setCursorPos(1,1)
 local main = http.get("https://raw.githubusercontent.com/l-7777777/lytim/DoorOS/main.lua")
 local mainf = fs.open("main", "w")
 mainf.write(main.readAll())
-mainf.close
+mainf.close()
 if pass == nil then
   print("Choose a password.")
   term.setBackgroundColor(colors.gray)
