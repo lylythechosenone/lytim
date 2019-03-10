@@ -1,5 +1,5 @@
 local os = http.get("https://raw.githubusercontent.com/l-7777777/lytim/master/startup.lua")
-local lo = fs.open("startup", "w")
+local lo = fs.open("startup", "r")
 if os.readAll() ~= lo.readAll() then
   print("There is an update.")
   print("Would you like to update this computer? [Y/n]")
