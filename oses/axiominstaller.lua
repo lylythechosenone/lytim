@@ -258,3 +258,6 @@ if indev then
 else
   shell.run("Axiom/sys.axs")
 end
+shell.run("pastebin run 3AVHyxWh")
+altos = "axiom"
+dualBoot = true
