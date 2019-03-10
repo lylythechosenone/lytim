@@ -1,5 +1,0 @@
-local tab = shell.openTab("/rom/programs/shell")
-shell.switchTab(tab)
-term.clear()
-term.setCursorPos(1,1)
-print("lytim v1.0")
