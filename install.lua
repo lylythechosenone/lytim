@@ -1,14 +1,15 @@
+os.loadAPI("button")
 term.clear()
 term.setCursorPos(1,1)
 print("Would you like to install an app or an os?")
-local oora = read()
-if oora == "app" then
-  dofile("store")
-elseif oora == "os" then
-  dofile("installos")
-else
-  term.setTextColor(colors.red)
-  print("Choose os or app.")
-  term.setTextColor(colors.white)
-  dofile("install")
+function app()
+  shell.run("store")
+end
+function os()
+  shell.run("os")
+end
+print("")
+button.create("App", colors.green, app())
+print("")
+button.create("OS", colors.blue, os())
 end
