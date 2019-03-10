@@ -4,11 +4,11 @@ term.setCursorPos(1,1)
 print("Would you like to install an app or an os?")
 function app()
   shell.run("store")
-  return shell.run("store")
+  return app()
 end
 function os()
   shell.run("os")
-  return shell.run("os")
+  return os()
 end
 print("")
 button.create("App", colors.green, app())
