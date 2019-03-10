@@ -4,7 +4,7 @@ if os.readAll() ~= lo.readAll() then
   print("There is an update.")
   print("Would you like to update this computer? [Y/n]")
   local yorn = read()
-  if (yorn == Y) or (yorn == y) then
+  if (yorn == "Y") or (yorn == "y") then
     print("Restart to update")
     term.setBackgroundColor(colors.green)
     print("           ")
