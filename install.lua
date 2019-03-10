@@ -9,6 +9,6 @@ function os()
   shell.run("os")
 end
 print("")
-button.create("App", colors.green, app())
+button.create("App", colors.green, app)
 print("")
-button.create("OS", colors.blue, os())
+button.create("OS", colors.blue, os)
