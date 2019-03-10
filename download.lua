@@ -22,6 +22,7 @@ if tArgs[1] == nil then
     else
       print("retrying...")
       dofile("download")
+    end
   end
 else
   if (tArgs[2] == "as") and (tArgs[3] ~= nil) then
